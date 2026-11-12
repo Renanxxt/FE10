@@ -1,0 +1,35 @@
+<div class="demo-ler">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto Cokiee</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <script src="script.js"></script>
+    </body>
+    <h3>Ler cookies</h3>
+    <p>Este componente deveria mostrar os cookies atuais.</p>
+    <button onclick="lerCookies()">Ler cookies agora</button>
+    <div class="terminal" id="demo-ler"></div>
+</div>
+<div class="demo-apagar">
+    <h3>Apagar tema</h3>
+    <label>Valor do tema</label>
+    <input type="text" id="demo-tema-apagar" value="escuro">
+    <div class="btns">
+        <button onclick="gravarTemaParaApagar()">Gravar tema</button>
+        <button onclick="apagarTema()">Apagar tema</button>
+    </div>
+    <div class="terminal" id="demo-tema-resultado"></div>
+</div>
+<div class="demo-gravar">
+    <h3>Gravar tema</h3>
+    <label>Valor do tema</label>
+    <input type="text" id="tema" value="escuro">
+    <button onclick="gravarTema()">Gravar tema</button>
+    <div class="terminal" id="demo-gravar-resultado"></div>
+</div>
